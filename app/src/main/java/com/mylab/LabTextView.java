@@ -60,7 +60,7 @@ public class LabTextView extends View {
         this.text = text;
     }
 
-    public void setTextColor(int color) {
+    public void setLabColor(int color) {
         this.color = color;
     }
 

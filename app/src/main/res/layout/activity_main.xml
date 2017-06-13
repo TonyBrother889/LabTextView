@@ -5,20 +5,47 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.mylab.MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context="com.mylab.MainActivity">
 
-    <LinearLayout
-
-        android:layout_marginTop="30dp"
-        android:background="@color/col_1b91ff"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp">
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp">
 
         <com.mylab.LabTextView
             android:id="@+id/slantedTextView"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
             custom:labTextViewSize="20sp" />
-    </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.mylab.LabTextView
+            android:id="@+id/labText2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            custom:labTextViewSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.mylab.LabTextView
+            android:id="@+id/labText3"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            custom:labTextViewSize="20sp" />
+    </RelativeLayout>
+
+
 </LinearLayout>
