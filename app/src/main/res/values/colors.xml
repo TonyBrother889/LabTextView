@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--标签颜色-->
+    <color name="col_1b91ff">#1b91ff</color>
+    <color name="col_81bb58">#81bb58</color>
+    <color name="col_999">#999 </color>
+    <color name="col_d72f2f">#d72f2f</color>
+    <color name="col_f47421">#f47421</color>
+    <color name="col_f89406">#f89406</color>
+    <color name="col_fco">#fc0</color>
+</resources>

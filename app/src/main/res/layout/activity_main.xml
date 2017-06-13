@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mylab.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_marginTop="30dp"
+        android:background="@color/col_1b91ff"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <com.mylab.LabTextView
+            android:id="@+id/slantedTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            custom:labTextViewSize="20sp" />
+    </LinearLayout>
+</LinearLayout>
